@@ -1,0 +1,15 @@
+button{
+    background-color: lightskyblue;
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px rgb(61, 173, 242) solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}

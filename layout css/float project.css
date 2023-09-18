@@ -1,0 +1,27 @@
+.floatl{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid rgb(90, 43, 135);
+    float: left;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.paregraph{
+    color: white;
+    background-color: rgb(90, 43, 135);
+    padding: 64px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.floatr{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid rgb(90, 43, 135);
+    float: right;
+    border-radius: 7px;
+    margin: 10px;
+}

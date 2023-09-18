@@ -1,0 +1,29 @@
+.container{
+    background-color: rgb(178, 177, 177);
+}
+
+.box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation-name: rectangle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+   /* animation-fill-mode: alternate;  /* forwards = ending position par animation atki jase 
+    alternate = animation starting position par atakse*/
+  /*  animation-timing-function: ease-in; /* ease-in = starting ma animation slow and ending ma fast
+    ease-out = starting ma animation fast and ending ma slow 
+    ease-in-out = animation get slow while starting and ending and it is fast in middle part*/
+  /*  animation-delay: 3s;  /* it get delay in start animation */
+   /* animation-direction: reverse;   animation reverse direction ma work karse */
+}
+
+@keyframes rectangle{
+    from{
+        width: 150px;
+    }
+    to{
+        width: 500px;
+    }
+}

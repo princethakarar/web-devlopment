@@ -1,0 +1,518 @@
+* ATTRIBUTE
+
+1. ID
+   
+- it is use to give an unique id to perticular part of code, which help in modification.
+- it is use for single element.
+
+ex. <p id="first"> hii </p>
+
+(modification)    #first{
+                         color:blue;
+                        }
+
+
+2. CLASS
+
+- it use to give identity to bunch of code, which help in modification.
+- it use for multiple elements.
+
+ex. <p class="first"> hii </p>
+    <p class="first"> hello </p>
+
+(modification)    .first{
+                         color:blue;
+                        }
+
+
+3. LOREM
+
+- lorem use for specified amount of random text.
+
+ex. lorem50
+
+
+4. WIDTH
+
+- it use to set width of images.
+
+ex width="150"
+
+
+5. HEIGHT
+
+- it use to set height.
+
+ex. height="150"
+
+
+6. AUTOPLAY
+
+- it use to auto-run video.
+
+ex. <video src="example_video.mp4" width="350" height="250" autoplay></video>
+
+
+7. CONTROLS
+
+- it use to control video.
+
+ex. <video src="example_video.mp4" width="350" height="250" controls></video>
+
+
+8. LOOP 
+
+- it use to run video infinite time.
+
+ex. <video src="example_video.mp4" width="350" height="250" controls loop muted></video>
+
+
+9. MUTED
+
+- it use to play muted video initialy.
+
+ex. <video src="example_video.mp4" width="350" height="250" controls loop muted></video> 
+
+
+10. POSTER
+
+- it use to give thumbnail to video.
+
+ex. <video src="example_video.mp4" width="350" height="250" controls loop muted poster="poster image.jpg"></video>
+
+
+11. IFRAME 
+
+- it is use to run other site on it.
+
+ex. <iframe src="https://www.youtube.com/embed/g6fnFALEseI"></iframe>
+
+
+12. ROWSPAN
+
+- it use to combine rows.
+
+ex. rowspan="2"
+
+
+13. COLSPAN
+
+- it use to combine collums.
+
+ex. colspan="2"
+
+
+14. ACTION 
+
+- in this we keep URL where we want to send data(server).
+
+ex. action="index.php"
+
+
+15. METHOD
+
+- it is method to send data to the server.
+
+- there are two types 1. GET
+                      2. POST
+
+
+16. FIELD-SET tag (<fieldset> </fieldset>)
+
+- it use seprate the perticular part.
+
+
+17. LEGEND tag (<legend> </legend>)
+
+- it use to give name to perticar part.
+
+
+16. DIV tag (<div> </div>)
+
+- it use to group perticular part of code(tags).
+
+- using div it is easy to modify.
+
+- it is block-level element means it use space in horizontal line.
+
+- it work as an container.
+
+
+17. SPAN (<span> </span>)
+
+- it use to group perticular part of code.
+
+- using span tag it is easy to modify.
+
+- is inline element means it use only space occupied by content.
+
+
+18. HEADER tag (<header> </header>)
+
+- it use to give header to website.
+
+
+19. NAV tag (<nav> </nav>)
+
+- it use to make nevigation bar in website.
+
+
+20. SECTION tag (<section> </section>)
+
+- it use to devide code in different section.
+
+
+21. TARGET (_blank)
+
+- it use when we open new page at new tab.
+
+
+22. &nbsp 
+
+- it use for space.
+
+
+23. PLACEHOLDER
+
+- it give us text in text box while we have not entered anythings in textbox.
+
+ex. placeholder="enter name"
+
+* TEXT-ATTRIBUTE tags
+
+
+1. B & STRONG tag
+
+- it is use to bold the text.
+
+ex. <p><b> hello </b></p>
+             OR
+    <p><strong> hello </strong></p>
+
+
+2. I & EM tag
+
+- it use to italic the font.
+
+ex. <p><i> hello </b></i>
+
+
+3. SMALL tag
+
+- text become smaller.
+
+ex. <p><small> helloo </small></p>
+
+
+4. SUPER-SCRIPT tag
+
+-it is use while showing power
+
+ex. <p> 10 <sup>2</sup> </p> 
+
+
+5. SUB-SCRIPT tag
+
+- it is use while logarithm.
+
+ex. <p> 10 <sub></sub></p>
+
+
+
+* LIST 
+
+- there are 3 types of list.
+
+1. ordered list
+2. unordered list
+3. description list
+
+1. ordered list
+
+- there is order follows in the list. (1st, 2nd, 3rd.....)
+- types are i,I,a,A,etc...
+
+ex. <ol>
+        <li>prince</li>
+        <li>vaibhav</li>
+        <li>dhaval</li>
+    </ol>
+
+
+2. unordered list
+
+- there is no order follows in the list. (*, #...)
+- types are square,circle,none.
+
+ex. <ul>
+        <li>prince</li>
+        <li>vaibhav</li>
+        <li>dhaval</li>
+    </ul>
+
+
+* TAGS 
+
+
+* <HR> tag
+
+- it use for horizontal line.
+
+ex <hr>
+
+
+* HYPER-LINK(ANKER TAG)
+
+# <a> </a>
+
+- anker link is use to move from one page to another page.
+
+- we can use attribute 'target="_main"' to open link in new tab.
+
+- we can also open link using clicking on image also. to perform this we can put 'img' tag at content in 'a' tag.
+
+-> There are three different condition
+
+1. you are in same folder to move.
+2. you have to move in folder for accessing file.
+3. you have to move in different folder to access file.
+
+1. file is in same folder
+
+- in this case we have to just write file name in URL.
+
+ex. <a href="text attributes.html"> next </a>
+
+
+
+2. move in folder
+
+- write 'folder_name' + '/' + 'file_name'
+
+ex. <a href="hello/kem chho.txt">kem chho</a>
+
+
+
+3. move in different folder
+
+- write '../' + 'file or folder name'
+
+ex. <a href="../c programming/bio data .c">bio-data</a>
+
+
+
+
+* IMAGE tag (<img>)
+
+
+- it use to show image.
+
+ex. <img src="web_devlopment_img.jpg" alt="loading" width="350">
+
+
+
+* VIDEO tag (<video> </video>)
+
+- it use to show videos.
+
+ex. <video src="web_devlopment.mp4" alt="loading" width="350"> 
+
+
+* TABLE tag (<table> </table>)
+
+- this tag is use to create table.
+
+- we also use <caption> </caption> (caption tag) to describe table.
+
+-> <tr> </tr>
+
+- it to access row.
+
+
+-> <td> </td>
+
+- it use to store data on table.
+
+
+-> <th> </th>
+
+- it use to write heading of table.
+
+
+-> <thead> </thead>
+
+- in this we can write all the content of heading.
+
+
+-> <tbody> </tbody>
+
+- in this we can write all the content of body.
+
+
+-> <tfoot> </tfoot>
+
+- in this we can write the end part(footer part like total) of table.
+
+ex. <table>
+        <thead>
+           <tr> 
+            <th>ROLL NO.</th>
+            <th>NAME</th>
+            <th>TOTAL MARKS</th>
+            <th>MARKS</th>
+           </tr> 
+        </thead>
+        <tbody>
+           <tr> 
+            <td>1</td>
+            <td>prince</td>
+            <td>500</td>
+            <td>480</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>dhaval</td>
+            <td>500</td>
+            <td>465</td>
+           </tr> 
+           <tr>
+            <td>3</td>
+            <td>vaibhav</td>
+            <td>500</td>
+            <td>450</td>
+           </tr> 
+        </tbody>
+    </table>
+
+- we can also merge more than one collum or row using colspan & rowspan.
+
+ex. 
+
+<table>
+        <tr>
+          <th>
+            <th colspan="2">name</th>
+          </th>
+        </tr>
+        <tr>
+            <td>prince</td>
+            <td rowspan="2">1</td>
+        </tr>
+        <tr>
+            <td>dhaval</td>
+        </tr>
+
+ 
+* <form> </form>
+
+- it use to create form.
+
+- it contain action tag in which we can give server location.
+
+- we can define action tag by which we can decide that at which place all the data are store.
+
+
+* <big> </big>
+
+- it is use to show big text.
+
+ex. <big>hello world</big>
+    
+
+* <small> </small>
+
+- it is use to show small text.
+
+ex. <small>hello world</small>
+
+
+* <pre> </pre>
+
+- it is use to print text without ignoring space and next line. 
+
+- it print text on website as it is.
+
+ex. <pre> hiii                    kem cho ? </pre>
+
+output = <pre> hiii                    kem cho ? </pre>
+
+
+* <section> </section>
+
+- it is use to devide main in defferent-different section.
+
+
+* <aside> </aside>
+
+- this part is use to show AD on webpage.
+
+* <input> 
+
+- it is use to get different types of input in form. 
+
+- it use type attribute to decide the which type of data input. 
+
+- name attribute is use to store perticular type of data. it must be unique.in radio buttons name should be same.
+
+- value : we have to define value while radio button and text-box.
+
+-> types of input
+
+1. TEXT
+
+- it use when we want to enter text.
+
+2. PASSWORD
+
+- in this we can take password from user which characters are hidden.
+
+3. RADIO button
+
+- it use when user has multiple choice.
+
+- in this user can select only one choice.
+
+4. CHECKBOX
+
+- it use when user has multiple choice.
+
+- in this user can select more than one choice.
+
+5. FILE-SELECT button
+
+- in this we give button to user by which user can select file from it's device to upload.
+
+6. SUBMIT button
+
+- it use to submit form.
+
+7. RESET button
+
+- it use to reset form when filled details are wrong.
+
+8. IMAGE button
+
+- in this user can select image to pass the server.
+
+9. TEXT-AREA 
+
+- it use when user want to enter long text.
+
+10. SELECT box 
+
+- by this user can select choice using drop-down menu.
+
+- it use option tag to give option.
+
+11. EMAIL
+
+- in this we can email from user.
+
+12. NUMBER
+
+- in this we can take number from user.
+  
+
+* label 
+
+- by the level tag we can give label to input.

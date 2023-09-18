@@ -1,0 +1,345 @@
+-> There are 3 way to link CSS in HTML.
+
+1. inline : in this we give modify style using 'STYLE' attribute.
+
+ex. <h1 style="color:blue;"> prince </h1>
+
+
+2. external : in this we make a perticular file for styling and link it to HTML page in head tag using link tag.
+
+ex. <link rel="stylesheet" href="style.css">
+
+
+3. internal : in this we define style at style tag in head.
+
+ex. <style>
+      h2{
+          color : blue; 
+        }
+    </style>
+
+# properties
+
+-> colors 
+
+- there are many types of color.
+
+- we can select color using many ways
+* by selecting name of color.
+ex.  color: black;
+
+* by RGB(red-green-blue). in this we can decide the intensity of RGB, intensity must between 0-255, and we also wite opecity of color by writting 'A' at the end which is between 0-10.
+ex. color: rgba(0, 0, 0, 0.886);
+
+* we also decide color using hexadecimal (#RRGGBB), here intensity must be between O-FF, last two text are use for opecity
+ex. color: #000000e2;
+
+1. color
+
+- using this we can change text color.
+ex. color: black;
+
+2. border-color
+
+- by this we can change the color of border.
+
+
+
+-> background
+
+
+1. background color
+
+- by this we can change background color.
+ex. background-color: aquamarine;
+
+2. background image
+
+- we can add image also in the background.
+ex. background-image: url("example_img.jpg"); 
+
+3. background repeat
+
+- it decide background repeat or not.
+ex. background-repeat: repeat;
+
+4. background size
+
+- using this we can modify size of background.
+ex. background-repeat: repeat;
+
+5. background attachment 
+
+- using this we can make background fixed or scroll.
+ex.  background-attachment: fixed;
+
+6. background possition
+
+- in this we can decide the possition of background(right, left, bottom, center, top).
+ex. background-position: center;
+
+
+-> border
+
+- by this we can make border around text.
+
+ex. border: 2px solid black;
+
+- if we make small border width than content then it is become overflow.
+
+- to solve this problem we can use overflow auto. it give us scroll-bar automatically by our content by which we can scroll and see the  content.
+ex. overflow:auto;
+
+- if we want hide overflow text than we use use overflow hidden, by this we can hide the overflowed data.
+ex. overflow:hidden;
+
+-> font family
+
+- by this we can change the style of font.
+
+1. font style 
+
+- in this we can define the style of font like italic, bold, oblique, etc.
+ex. font-style: italic;
+
+2. font size
+
+- in this we can decide font size like smaller, small, large, larger, medium, x-large, x-small, in px, in percentage(%)etc.
+ex. font-size: large;
+
+3. font weight
+
+- in this we decide the boldness or lightness of font the values are bold, bolder, light, lighter, the value starts from 100 to 900 in this 400 is normal.
+ex. font-weight: bold;
+
+4. font family
+
+- in this we can decide the font text or style like times new roman, arial, etc.
+ex. font-family: Arial, Helvetica, sans-serif;
+
+
+
+-> formatting text
+
+1. text align
+
+- by this we can align text like center, justify, left, right.
+ex. text-align: justify;
+
+2. line height
+
+- using this we can decide the space between lines.
+ex. line-height: 50px;
+
+3. text indent
+
+- it use to give space while starting paragraph.
+ex. text-indent: 30px;
+
+4. word spacing
+
+- in this we can decide the space between words.
+ex. word-spacing: 5px;
+
+5. text transform
+
+- there are properties like uppercase, lowercase, capitalization(first word capital).
+ex. text-transform: capitalize;
+
+6. text decoration 
+
+- in this we can decorate text like, underline, overline, line-through and there are also many design available like dotted, lines, etc.
+ex. text-decoration: line-through;
+
+7. text shadow
+
+- by this we can decide how shadow represent. 
+ex. text-shadow: 1px 2px 3px black;
+- here 1st value is for x, 2nd is for y, 3rd is for blur and last is for shadow color.
+
+
+
+-> UNITS IN CSS
+
+- there are 2 types of units.
+1. absolute 
+2. relative.
+
+
+1. absolute= it is fixed and not depended on anything else, it consider always same size.
+
+ex. cm, mm, in, px, pt, pc.
+
+2. related= it is depended on something else like, size of parents elements, size of view point.
+
+ex. %, em, rem, vw, vh, vmin, vmax.
+
+
+
+-> INHERITANCE
+
+- there are 3 types of inheritance.
+
+1. inherit= it inherit style from parent tag.
+2. initial= it use default style.
+3. unset= it set style according to inherit or initial which browser supports.
+
+
+-> IMPORTANT
+
+- it is keyword if we use it then specificity of this selector is high.
+
+syntax. !important
+
+
+-> Z-INDEX
+
+- it is use when we have multiple boxes and all the boxes are upon each other.
+
+- if we want give specific order to this boxes than we use z-index property.
+
+
+
+-> LAYOUT
+
+1. FLOAT
+
+- by this we can move image left, right, top, bottom.
+
+ex. float: right;
+
+
+2. POSITION
+
+- by this we can change the possition of any things.
+- there are attributes like  static, relative, absolute, fixed, sticky.
+
+1. static
+
+- it is default.
+
+2. relative
+
+- in this things are maintain on thier default possition and we can modify possition.
+
+3. absolute
+
+- in this all the things are merge at one place and we can modify it. 
+
+4. fixed
+
+- in this all the things are merge at one place and it cann't move if we scroll the screen.
+
+5. sticky
+
+- it give transition while scrolling, in this first thing is fixed and other are scrolling.
+
+
+
+-> FLEXBOX
+
+- by this we can use display attribute. it includes block, flex.
+- block means all the block are set in horizontal.
+- flex means all the block are set in vertical.
+
+
+* FLEX-DIRECTION
+
+- in this we can change block direction. 
+- we can set it in row, collum, collum-reverse, row-reverse.
+
+* FLEX-WRAP
+
+- it contain wrap and nowrap
+- wrap means block change it's size by changing size of screen.
+- nowrap means it doesn't change it size by changing size of screen.
+
+
+-->> ANIMATION
+
+1. animation-name 
+
+- give name to the animation.
+
+ex. animation-name: rectangle;
+
+
+2. animation-duration
+
+- ani ation nu duration nakki karva mate
+
+ex. animation-duration: 2s;
+
+
+3. animation-iteration-count
+
+- animation ketli time chalse a nakki karva mate.
+
+ex. animation-iteration-count: infinite;
+
+
+4. animation-fill-mode
+
+- forwards = ending position par animation atki jase 
+
+- alternate = animation starting position par atakse
+
+ex. animation-fill-mode: alternate;
+
+
+5. animation-timing-function
+
+- ease-in = starting ma animation slow and ending ma fast
+- ease-out = starting ma animation fast and ending ma slow 
+- ease-in-out = animation get slow while starting and ending and it is             
+                fast in middle part
+
+ex. animation-timing-function: ease-in;
+
+
+6. animation-delay
+
+- it get delay in start animation
+
+ex. animation-delay: 3s;
+
+
+7. animation-direction
+
+ex. animation-direction: reverse;
+
+- animation reverse direction ma work karse
+
+
+
+-->> TRANSITION
+
+
+1. transition-property
+
+- kai kai properties ma transition aapvanu chhe a nakki karva.
+
+ex. transition-property: background-color;
+
+
+2. transition-duration
+
+- transition ketla duration sudhi chalse a nakki karva
+
+ex. transition-duration: 2s;
+
+
+3. transition-timing-function
+
+- ease-in = starting ma animation slow and ending ma fast
+- ease-out = starting ma animation fast and ending ma 
+             slow 
+- ease-in-out = animation get slow while starting and 
+                ending and it is fast in middle part
+
+
+4. transition-delay
+
+- transition ma delay aapva.
+
+ex. transition-delay: 1s;

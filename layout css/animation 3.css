@@ -1,0 +1,72 @@
+.box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation-name: rectangle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes rectangle{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+
+    25%{
+        top: 0px;
+        left: 150px;
+    }
+
+    50%{
+        top: 150px;
+        left: 150px;
+    }
+
+    75%{
+        top: 150px;
+        left: 0px;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+    }  
+}
+
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
+}
+
+.box2{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+}
+
+.box3{
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+}
+
+.box4{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+}

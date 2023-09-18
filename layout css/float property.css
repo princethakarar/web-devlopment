@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+}
+
+.heading{
+    padding: 15px;
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.image{
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 15px;
+    margin: 15px;
+}
+
+.cleared{
+   clear: right; 
+}

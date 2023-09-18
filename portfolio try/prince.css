@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.landing-page{
+    height: 90vh;
+    width: 100%;
+    background: #5cb9ff;
+    position: relative;
+}
+
+.logo{
+    margin: 0px 10px;
+    height: 130px;
+    transition: 1s;
+}
+
+.logo:hover{
+    height: 135px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    margin-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    color: #005377;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.detail{
+    color: #005377;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+.detail p{
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.detail h1{
+    font-size: 40px;
+}
+
+.detail span{
+    color: white;
+}
+
+.detail a{
+    text-decoration: none;
+    background: #005377;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.detail a:hover{
+    text-decoration: underline;
+    border: 1px solid white;
+}
+
+.boy{
+    position: absolute;
+    height: 440px;
+    bottom: 3px;
+    right: 145px;
+    transition: 1s;
+}
+
+.boy:hover{
+    height: 445px;
+    right: 150px;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    background: #005377;
+    padding: 13px;
+}

@@ -1,0 +1,32 @@
+.parent,.child{
+    border-radius: 5px;
+}
+
+.parent{
+    background-color: whitesmoke;
+}
+
+.child{
+    position: sticky;
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    text-align: center;
+}
+
+#box1{
+    left: 10px;
+}
+
+#box1{
+    bottom: 10px;
+}
+
+#box1{
+    top: 10px;
+}
+
+#box1{
+    right: 10px;
+}

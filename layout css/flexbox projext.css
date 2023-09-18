@@ -1,0 +1,228 @@
+.flex-container{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first{
+    width: 410px;
+    height: 163px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+#A{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#B{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#C{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+.one{
+    color: chocolate;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#one_one{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    height: 40px;
+    width: 129px;
+    background-color: antiquewhite;
+}
+
+#one_two{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 129px;
+}
+
+#one_three{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 129px;
+}
+
+.two{
+    color: chocolate;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#two_one{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color:antiquewhite;
+    height: 40px;
+    width: 95px;
+}
+
+#two_two{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 94px;
+}
+
+#two_three{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 95px;
+}
+
+#two_four{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 95px;
+}
+
+.three{
+    color: chocolate;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#three_one{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 75px;
+}
+
+#three_two{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 74px;
+}
+
+#three_three{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 75px;
+}
+
+#three_four{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 74px;
+}
+
+#three_five{
+    margin: 1px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 75px;
+}
+
+.second{
+    width: 305px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#E{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#F{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#G{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#H{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+.third{
+    width: 242px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#I{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#J{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#K{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#L{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+#M{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: chocolate;
+}

@@ -1,0 +1,33 @@
+.flex_container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex{
+    font-size: xx-large;
+    padding: 15px;
+    border: 3px solid black;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#flex1{
+    background-color: aquamarine;
+}
+
+#flex2{
+    background-color: aqua;
+}
+
+#flex3{
+    background-color: coral;
+}
+
+#flex4{
+    background-color: cornflowerblue;
+}

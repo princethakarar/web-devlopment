@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: #f2fdb9;
+}
+
+.landing-page{
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    width: 170px;
+    height: 170px;
+}
+
+nav{
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: #072d42;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+nav a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #ffac6a;
+    border-radius: 6px;
+    left: 0;
+    bottom: -3px;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+
+nav a:hover::after{
+    transform: scaleX(1);
+}
+
+nav button{
+    text-transform: uppercase;
+    color: #072d42;
+    background: #ffac6a;
+    padding: 7px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #072d42;
+}
+
+nav button:hover{
+    color: white;
+    border: 2px solid #072d42;
+}
+
+.pizza{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    height: 470px;
+    transition: all 1s ease-in;
+}
+
+.pizza:hover{
+    transform: rotate(90deg);
+}
+
+.content{
+    position: absolute;
+    left: 7%;
+    top: 43%;
+}
+
+.content p{
+    letter-spacing: 2px;
+}
+
+.content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+#order{
+    background: #072d42;
+}
+
+#dis{
+    background: #ffac6a;
+}
+
+.content a:active{
+    font-weight: bold;
+}
+
+.content a:hover{
+    border: 3px solid white;
+}
+
+.ex{
+    position: absolute;
+    bottom: 22%;
+    left: 7%;
+}
+
+#pizza1{
+    height: 50px;
+}
+
+#pizza2{
+    height: 52px;
+}
+
+#pizza3{
+    height: 54px;
+}
+
+.ex img{
+    transition: 1s ease;
+}
+
+.ex img:hover{
+    transform: translateY(-20px);
+}

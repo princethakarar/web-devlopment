@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: px;
+    padding: 20px 20px;
+    font-family: oswald;
+    background-color: rgba(168, 216, 218, 0.151);
+    border: 2px;
+}
+
+body{
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h1{
+    font-family: playfair display;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: rgb(25, 40, 40);
+} 
+
+span{
+    width: 50%;
+}
+
+#email, #sub{
+    width:97% ;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+} 
+
+fieldset{
+    border-radius: 5px;
+}
+
+.name{
+    width: 43%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#submit{
+    width: 97%;
+    padding: 10px;
+    border: none; 
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-family: playfair display;
+    color: white;
+    font-size: larger;
+}
+
+#message{
+    width: 97%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: rgb(73, 120, 122);
+    color: black;
+}
+
+textarea, fieldset{
+    border: 2px solid black;
+}

@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color, height, width, border-radius, font size, color;  /* kai kai vastu ma change karvano chhe a aama lakhvanu */
+    transition-duration: 2s;  /* transition ketla duration sudhi chalse a nakki karva */
+    transition-timing-function: ease-in  /* ease-in = starting ma animation slow and ending ma fast
+    ease-out = starting ma animation fast and ending ma 
+               slow 
+    ease-in-out = animation get slow while starting and 
+                  ending and it is fast in middle part */;
+    transition-delay: 1s;  /* transition ma delay aapva */            
+}
+
+.box:hover{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+    font-size: 50px;
+    color: white;
+}

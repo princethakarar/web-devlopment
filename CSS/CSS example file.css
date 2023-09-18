@@ -1,0 +1,72 @@
+/*p{
+   color:red;
+}
+
+a{
+   color:red;
+} 
+                       OR
+*/
+
+/*p,a{                        // ek sathe ek thi vadhu tag ne ek sathe select karva //
+    color:red;
+}    */
+
+li{
+    list-style-type:square;
+}
+
+/* class selector */
+
+li.special{                 /* koi specific jagya na class ne access karva */
+    color:aquamarine;
+    font-weight: bold;
+}
+
+.special{                   /* class ne modify karva . no use thay*/
+    color:blueviolet;
+}
+
+li em{                      /* tag na andar na tag ne select karine styling add karva */
+    color:brown;
+}
+
+h6+p{                       /* koi tag tarat pachhi na tag ne access karva ex. h6 na tarat pachhi na p tag ne style aapva*/
+    font-size: x-large;
+}
+
+a:hover{                      /* hover means jyare cursor tena par laviye tyare tema change jova male*/
+     color:red;
+     text-decoration: none;    /* underline ke avu kai select karva */
+}
+
+h6+p   .special{             /* koi vastu ne exact select karva */
+    padding: 5px;
+    background-color: black;
+}
+
+/* id selector */
+
+#heading{                   /* id ne modify karva # no use thay*/         
+    color: red;
+    background-color: black;
+}
+
+p#one{                     /* je paragraph tag ma id one hoy tene select karva */
+    color:plum;
+}
+
+/* attribute selector */
+
+li[class]{                 /* list ma jya class aapela hoy tene select karva*/     
+    font-size: xx-large;
+}
+
+li[id="one"]{             /* id mathi koi pertticular id ne select karva */
+    color: chartreuse;
+}
+
+li[class~="a"]{          /* je je class ma a no use thato hoy tene select karva */ 
+     color: darkgreen;    
+}
+ 

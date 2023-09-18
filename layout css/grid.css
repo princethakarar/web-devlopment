@@ -1,0 +1,62 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  /*  grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 200px 200px 200px; 
+    grid-template-rows: 1fr 2fr 2fr; */
+    grid-gap: 10px;  /* space between all the grid */
+    column-gap: 20px;  /* space between all the collums */
+    row-gap: 20px;  /* space between all the row */
+    grid-auto-rows: 200px;    /* collum ni height fix karva */
+    grid-auto-columns: 200px;   /*  collum ni width fix karva */
+    grid-auto-rows: minmax(200px, auto); /* minimum and maximum height set karva */
+    grid-auto-columns: minmax(50px, auto);
+    grid-template-columns: repeat(auto-fill, 300px);  /* jate decide kare according to size ke ketla box ek sathe samay jase */
+    /* grid-template ma autofill no use karvathi responsiveness vadhe */
+}
+
+.items{
+    background-color: lightblue;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+}
+
+#item-1{
+  grid-row-start: 2;    /* starting point fix karva */
+  grid-row-end: 3;      /* ending point fix karva */
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+#item-2{
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item2-container{
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 10px;
+}
+ 
+.item-2-1{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(127, 175, 191);
+  text-align: center;
+}
+
+.item-2-2{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(127, 175, 191);
+  text-align: center;
+}
+
+.item-2-3{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(127, 175, 191);
+  text-align: center;
+}
+

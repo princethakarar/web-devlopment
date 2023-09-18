@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: palevioletred;
+    padding: 40px;
+}
+
+nav{
+    background-color: rgb(54, 19, 31);
+    padding: 15px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+p{
+    color: black;
+}

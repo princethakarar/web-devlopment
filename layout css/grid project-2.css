@@ -1,0 +1,34 @@
+.container{
+     display: grid;
+     grid-template-columns: 20% 80%;
+     grid-gap: 10px;
+     margin-right: 20px;
+}
+
+div.item{
+    background-color: yellow;
+    font-size: x-large;
+    padding: 10px;
+    font-weight: 500;
+}
+
+div#right{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+    grid-template-rows: 75px 420px 75px;
+}
+
+div#main{
+    display: grid;
+    grid-template-columns: 79% 20%;
+    grid-gap: 10px;
+}
+
+div.item:hover{
+    background-color: rgb(10, 10, 10);
+    cursor: pointer;
+    margin: -15px;
+    color: white;
+
+}
